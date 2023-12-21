@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        section{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .s{
+            width: 25%;
+            border: 5px solid;
+            text-align: center;
+            padding-top: 50px;
+        }
+        span{
+            font-size: 100px;
+            padding: 30px;
+            border: 1px solid;
+            border-radius: 50%;
+            background-color: aqua;
+            width: 100px;
+        }
+        .a h1{
+            padding-top: 20px;
+            font-size: 50px;
+        }
+        span:hover{
+            color: aqua;
+            background-color: black;
+        }
+
+        @media screen and (max-width:400px) {
+            .s{
+                width: 100%;
+            }
+            span{
+                font-size: 30px;
+                padding: 20px;
+            }
+            .a h1{
+                font-size: 30px;
+                color: red;
+            }
+        }
+
+        @media screen and ((max-width:800px)and (min-width:400px)) {
+            .s{
+                width: 25%;
+            }
+            span{
+                font-size: 50px;
+                padding: 20px;
+            }
+            .a h1{
+                font-size: 40px;
+                color: rgb(0, 255, 145);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1><i class="fa fa-address-book" aria-hidden="true"></i></h1> -->
+    
+    <section>
+        <div class="s">
+            <span><i class="fa fa-book" aria-hidden="true"></i></span>
+            <div class="a">
+                <h1>Book</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur voluptate aut sed totam voluptatem aliquid earum quibusdam necessitatibus illum, nam dignissimos recusandae ad debitis nulla itaque est vel perspiciatis?</p>
+            </div>
+        </div>
+        <div class="s">
+            <span><i class="fa fa-car" aria-hidden="true"></i></span>
+            <div class="a">
+                <h1>Car</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur voluptate aut sed totam voluptatem aliquid earum quibusdam necessitatibus illum, nam dignissimos recusandae ad debitis nulla itaque est vel perspiciatis?</p>
+            </div>
+        </div>
+        <div class="s">
+            <span><i class="fa fa-film" aria-hidden="true"></i></span>
+            <div class="a">
+                <h1>Movie</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis consequuntur voluptate aut sed totam voluptatem aliquid earum quibusdam necessitatibus illum, nam dignissimos recusandae ad debitis nulla itaque est vel perspiciatis?</p>
+            </div>
+        </div>
+        
+        
+
+    </section>
+
+</body>
+</html>
